@@ -22,7 +22,7 @@ $dados = mysqli_fetch_assoc($rs);
         <label class="form-label" for="nomeCliente">Nome do Cliente</label>
         <div class="input-group">
                 <div class="input-group-text">
-                    <i class="bi bi-film"></i>
+                    <i class="bi bi-person-circle"></i>
                 </div>
 
         <input class="form-control" type="text" name="nomeCliente" id="nomeCliente" value="<?=$dados["nomeCliente"]?>">
@@ -34,7 +34,7 @@ $dados = mysqli_fetch_assoc($rs);
         <label class="form-label" for="nomeCliente">Telefone</label>
         <div class="input-group">
                 <div class="input-group-text">
-                    <i class="bi bi-film"></i>
+                    <i class="bi bi-phone-vibrate"></i>
                 </div>
 
         <input class="form-control" type="text" name="telefoneCliente" id="telefoneCliente" value="<?=$dados["telefoneCliente"]?>">
@@ -45,7 +45,7 @@ $dados = mysqli_fetch_assoc($rs);
         <label class="form-label" for="nomeCliente">email</label>
         <div class="input-group">
                 <div class="input-group-text">
-                    <i class="bi bi-film"></i>
+                    <i class="bi bi-envelope"></i>
                 </div>
 
         <input class="form-control" type="email" name="emailCliente" id="emailCliente" value="<?=$dados["emailCliente"]?>">

@@ -1,5 +1,5 @@
 <div class="container">
-    <h2 class="bi bi-film"><i class="bi bi-plus"></i>Inserir Cliente</h2>
+    <h2 >Inserir Cliente</h2>
 <?php
 $nomeCliente = $_POST["nomeCliente"];
 $telefoneCliente = $_POST["telefoneCliente"];

@@ -20,7 +20,7 @@ $dados = mysqli_fetch_assoc($rs);
         <label class="form-label" for="nomeCategoria">Nome da Categoria</label>
             <div class="input-group">
                 <div class="input-group-text">
-                    <i class="bi bi-film"></i>
+                    <i class="bi bi-journal-plus"></i>
                 </div>
         <input class="form-control" type="text" name="nomeCategoria" id="nomeCategoria" value="<?=$dados["nomeCategoria"]?>">
     </div>

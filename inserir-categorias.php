@@ -1,5 +1,5 @@
 <div class="container">
-<h2 class="bi bi-film"><i class="bi bi-plus"></i>Inserir Categoria</h2>
+<h2 >Inserir Categoria</h2>
 <?php
 $nomeCategoria = $_POST["nomeCategoria"];
 

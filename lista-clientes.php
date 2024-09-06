@@ -1,5 +1,5 @@
 <div class="container">
-    <h3 class="sbi bi-film">Lista de Clientes</h3>
+    <h3 class="bi bi-person-circle">Lista de Clientes</h3>
 <div class="mb-3">
         <a class="btn btn-secondary"href="index.php?menu=cad-clientes">Cadastrar nova Cliente</a>
 </div>
@@ -17,10 +17,12 @@
          <div class="input-group">
                 <div class="input-group-text">Pesquisar</div>
                 <input class="form-control" type="search" name="txtPesquisa" id="txtPesquisa" value="<?=$txtPesquisa?>">
-       <button class="btn btn-secondary"type="submit">
+                <button class="btn btn-secondary"type="submit">
             <i class="bi bi-search"></i>
         </button>
+    </div>
     </form>
+    </div>
 <div class="border p-1 rounded bg-dark">
         <table class="table table-dark table-striped table-hover">
     <thead>
@@ -54,3 +56,5 @@
     </tbody>
 
 </table>
+</div>
+</div>

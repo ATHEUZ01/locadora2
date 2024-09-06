@@ -1,3 +1,4 @@
+<div class="container">
 <h2>Atualizar Categoria</h2>
 <?php
 $idCategoria = $_POST["idCategoria"];
@@ -28,3 +29,4 @@ if ($rs) {
 }
 
 ?>
+</div>

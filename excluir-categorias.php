@@ -1,4 +1,4 @@
-<div class="container"></div>
+<div class="container">
     <h2>Excluir Categorias</h2>
     <?php
     $idCategoria = $_GET["idCategoria"];
@@ -15,7 +15,7 @@
         ?>
         <div class="alert alert-danger col-12 col-sm-6" role="alert">
             <h4 class="alert-heading bi bi-question-diamond-fill"> Excluir Categoria</h4>
-            <hr>
+            
             <p>Tem certeza que deseja excluir este registro?</p>
             <div class="d-flex justify-content-center">
                 <a href="index.php?menu=excluir-categorias&idCategoria=<?= $idCategoria ?>&resposta=sim"
@@ -24,12 +24,14 @@
                     class="btn btn-secondary m-4">Não</a>
 
             </div>
+            </div>
             <?php
             }
+            
 
 
 
 
-echo "<p>Registro excluido com sucesso!</p>";
 
 ?>
+</div>
